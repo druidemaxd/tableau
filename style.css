@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.paire {
+    background-color: burlywood;
+}
+
+.impaire {
+    background-color: #069;
+}
+
+.pause {
+    background-color: honeydew;
+}
