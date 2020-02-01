@@ -1,24 +1,27 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+@font-face {
+	font-family: Quicksand-Regular;
+	src: url(Quicksand-Regular.otf);
 }
-
+body {
+	font-family: Quicksand-Regular;
+	display: flex;
+	justify-content: center;
+	background-image: linear-gradient(to top, #2d1420, #ee4540);
+	background-repeat: no-repeat;
+	background-size: auto 657px;
+}
+main {
+	color: #ffffff;
+}
 table {
     border-collapse: collapse;
+
 }
 
 td {
-    border: 1px solid black;
-    padding: 10px;
+	border: 1px solid #ffffff;
+    padding: 50px;
 }
-
-.paire {
-    background-color: burlywood;
-}
-
-.impaire {
-    background-color: #069;
-}
-
-.pause {
-    background-color: honeydew;
+.pa {
+	text-align: center;
 }
